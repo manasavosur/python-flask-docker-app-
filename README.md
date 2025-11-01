@@ -1,15 +1,17 @@
-# Simple Python Flask Dockerized Application#
+# 🐍 Simple Python Flask Dockerized Application  
 
-Build the image using the following command
+_Recreated and customized by **Manasa Vosur** for DevOps practice and portfolio._
+
+## 🚀 Overview  
+This project demonstrates how to containerize a basic **Flask web application** using **Docker**.  
+It covers building Docker images, running containers, and exposing the app on a local port.
+
+---
+
+## 🧱 Build the Docker Image  
+
+Use the following command to build the Docker image:
 
 ```bash
-$ docker build -t simple-flask-app:latest .
-```
+docker build -t simple-flask-app:latest .
 
-Run the Docker container using the command shown below.
-
-```bash
-$ docker run -d -p 5000:5000 simple-flask-app
-```
-
-The application will be accessible at http:127.0.0.1:5000
