@@ -1,6 +1,6 @@
 # Simple Python Flask Dockerized Application
 
-_Recreated and customized by **Manasa Vosur** for DevOps practice._
+ by **Manasa Vosur** for DevOps practice.
 
 ---
 
